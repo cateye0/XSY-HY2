@@ -1,6 +1,9 @@
 # XSY-HY2
 Water Pump Inverter
 
+![image](https://github.com/user-attachments/assets/44aec20c-3bdd-4197-a293-1bf303de3cb3)
+
+
 If you have this type of inverter and would like to control it with an ESP, you can do so using the attached circuit and configuration. <br/>
 There are two important settings: <br/>
 
