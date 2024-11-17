@@ -18,19 +18,26 @@ With this setup, you can achieve the following functions: <br/>
 2. Remotely monitor when your pump is activated (Pump VFD Active)
 3. Physically turn the pump On or Off using the push button (Pump VFD Button)"
 
-
+---
 
 HY2 Terminal Blocks:
 
+
 TA, TB, TC
 This is a dry relay output. TA is the common terminal, TB is normally closed (NC), and TC is normally open (NO).
+
+![image](https://github.com/user-attachments/assets/a95f16d0-28c1-41c0-bfc6-00797107d1ae)
+
 
 X1 and COM <br/>
 When X1 is connected to the COM terminal, the pump receives a start signal. <br/>
 When disconnected, the pump receives a stop signal. <br/>
 
 5V Pin Warning <br/>
-Do not use this pin to power the ESP. It may seem suitable, but it is not; this pin is intended for measurement purposes only. <br/>
+Do not use this pin to power the ESP. It may seem suitable, but it is not intended for powering. <br/>
+This pin is for measurement purposes, and using it to power the ESP can interfere with pressure measurements. <br/>
+
+---
 
 My Inverter settings:
 | Prog  | Value |
