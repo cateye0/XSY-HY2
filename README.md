@@ -29,6 +29,8 @@ X1 and COM <br/>
 When X1 is connected to the COM terminal, the pump receives a start signal. <br/>
 When disconnected, the pump receives a stop signal. <br/>
 
+5V Pin Warning <br/>
+Do not use this pin to power the ESP. It may seem suitable, but it is not; this pin is intended for measurement purposes only. <br/>
 
 My Inverter settings:
 | Prog  | Value |
