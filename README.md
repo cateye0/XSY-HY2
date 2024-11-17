@@ -22,8 +22,9 @@ HY2 Terminal Blocks:
 TA, TB, TC
 This is a dry relay output. TA is the common terminal, TB is normally closed (NC), and TC is normally open (NO).
 
-X1 and COM
-When X1 is connected to the COM terminal, the pump receives a start signal.
+X1 and COM <br/>
+When X1 is connected to the COM terminal, the pump receives a start signal. <br/>
+When disconnected, the pump receives a stop signal. <br/>
 
 
 My Inverter settings:
